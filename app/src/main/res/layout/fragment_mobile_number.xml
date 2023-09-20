@@ -63,5 +63,17 @@
         android:layout_marginBottom="8dp"
         android:text="Get OTP"
         />
+    <ProgressBar
+        android:id="@+id/api_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/buttonGetOtp"
+        app:layout_constraintRight_toRightOf="@id/buttonGetOtp"
+        app:layout_constraintTop_toTopOf="@id/buttonGetOtp"
+        app:layout_constraintBottom_toBottomOf="@id/buttonGetOtp"
+        android:progressTint="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:visibility="gone"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
